@@ -34,4 +34,4 @@ def total_even_pairs(src)
   # this!
 end
 
-join_ingredients()
+join_ingredients([['pepperoni', 'sausage'], ['green olives', 'green peppers'], ['onions', 'pineapple']])
