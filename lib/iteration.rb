@@ -12,7 +12,7 @@ def join_ingredients(src)
     joined_array << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     row_index += 1
   end
-  puts joined_array
+  joined_array
 end
 
 def find_greater_pair(src)
@@ -31,8 +31,3 @@ def total_even_pairs(src)
   # this!
 end
 
-join_ingredients([
-  ['pepperoni', 'sausage'],
-  ['green olives', 'green peppers'],
-  ['onions', 'pineapple']
-])
