@@ -9,11 +9,7 @@ def join_ingredients(src)
   joined_array = []
   row_index = 0
   while src[row_index] do 
-    column_index = 0
-    while src[row_index][column_index] do
-      joined_array << "I love #{src[row_index][column_index][0]} and #{src[row_index][column_index][1]} on my pizza"
-      column_index += 1
-    end
+    joined_array << "I love #{src[row_index][0]} and #{src[row_index][1]} on my pizza"
     row_index += 1
   end
   puts joined_array
