@@ -20,6 +20,8 @@ def find_greater_pair(src)
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
   array = []
+  row_index = 0
+
   while src[row_index] do 
     greater_value = src[row_index][0] > src[row_index][1] ? src[row_index][0] : src[row_index][1]  
     array << greater_value
