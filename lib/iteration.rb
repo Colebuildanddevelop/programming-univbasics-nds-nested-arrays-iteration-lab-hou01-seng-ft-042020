@@ -38,4 +38,4 @@ def total_even_pairs(src)
   # this!
 end
 
-find_greater_pair(src)
+find_greater_pair([[-1, -900], [10, 30], [0, 0], [14, 16 * -2.5], [Math.sin(1), 19]])
