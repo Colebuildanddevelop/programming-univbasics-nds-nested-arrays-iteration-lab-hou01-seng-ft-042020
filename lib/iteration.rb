@@ -16,7 +16,7 @@ def join_ingredients(src)
     end
     row_index += 1
   end
-  joined_array
+  puts joined_array
 end
 
 def find_greater_pair(src)
